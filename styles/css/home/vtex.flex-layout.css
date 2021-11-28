@@ -1,0 +1,36 @@
+.flexRow--home-banner{
+    position: relative;
+}
+
+.flexRow--interest-home, .flexRow--history-home{
+    background-color: #E9ECEF;
+}
+
+.flexRow--history-home{
+    padding: 80px 0 80px;
+}
+
+.flexRowContent--interest-home, .flexRowContent--history-home{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.flexRowContent--interest-home .stretchChildrenWidth{
+    width: 100% !important;
+}
+
+.flexRowContent--history-home{
+    justify-content: center !important;
+}
+
+.flexRowContent--history-home .stretchChildrenWidth{
+    width: 41.6666666667% !important;
+}
+
+@media screen and (min-width: 1280px) {
+    .flexRowContent--interest-home, .flexRowContent--history-home{
+        width: 1280px;
+    }
+}

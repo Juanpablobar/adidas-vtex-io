@@ -1,0 +1,37 @@
+.flexRow--footer-newsletter{
+    background-color: #ede734;
+}
+
+.flexRowContent--footer-newsletter{
+    max-width: 960px;
+    padding: 40px 20px;
+}
+
+.flexRow--footer-menu{
+    background: white;
+}
+
+.flexRowContent--footer-menu{
+    padding: 25px 0;
+    margin: 29px auto;
+    width: 960px;
+    max-width: 100%;
+}
+
+.flexCol--footer-menu{
+    margin-left: 2px;
+}
+
+@media screen and (min-width: 1280px){
+    .flexRowContent--footer-newsletter{
+        width: 1280px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .flexRowContent--footer-newsletter{
+        max-width: 960px;
+        padding: 40px 20px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "flex-layout.col#menu-footer-2" : {
+        "title" : "Menu Footer Col 2",
+        "props" : {
+            "blockClass" : "footer-menu"
+        },
+        "children" : [
+            "vtex.menu@2.x:menu#footer-deportes-colecciones"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-deportes-colecciones" : {
+        "title" : "Deportes & Colecciones Menu",
+        "children" : [
+            "rich-text#footer-deportes",
+            "menu-item#footer-seleccion-nacional",
+            "menu-item#footer-tigers-uanl",
+            "menu-item#footer-futbol",
+            "menu-item#footer-running",
+            "menu-item#footer-basketball",
+            "menu-item#footer-gym-training",
+            "rich-text#footer-colecciones",
+            "menu-item#footer-yeezy",
+            "menu-item#footer-ultraboost",
+            "menu-item#footer-superstar",
+            "menu-item#footer-stan-smith",
+            "menu-item#footer-adicolor"
+        ],
+        "props" : {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#footer-deportes" : {
+        "title" : "Deportes",
+        "props" : {
+            "text" : "DEPORTES",
+            "blockClass" : "footer-item"
+        }
+    },
+    "rich-text#footer-colecciones" : {
+        "title" : "Colecciones",
+        "props" : {
+            "text" : "COLECCIONES",
+            "blockClass" : ["footer-item", "footer-item-spacer"]
+        }
+    },
+    "menu-item#footer-seleccion-nacional": {
+        "title" : "Seleccion Nacional",
+        "props": {
+            "id": "footer-seleccion-nacional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Selección Nacional de México",
+                "text": "Selección Nacional de México"
+            }
+        }
+    },
+    "menu-item#footer-tigers-uanl": {
+        "title" : "Tigres UANL",
+        "props": {
+            "id": "footer-tigres-uanl",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Tigres UANL",
+                "text": "Tigres UANL"
+            }
+        }
+    },
+    "menu-item#footer-futbol": {
+        "title" : "Fútbol",
+        "props": {
+            "id": "footer-futbol",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Fútbol",
+                "text": "Fútbol"
+            }
+        }
+    },
+    "menu-item#footer-running": {
+        "title" : "Running",
+        "props": {
+            "id": "footer-running",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Running",
+                "text": "Running"
+            }
+        }
+    },
+    "menu-item#footer-basketball": {
+        "title" : "Basketball",
+        "props": {
+            "id": "footer-basketball",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Basketball",
+                "text": "Basketball"
+            }
+        }
+    },
+    "menu-item#footer-gym-training": {
+        "title" : "Gym & Training",
+        "props": {
+            "id": "footer-gym-training",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Gym & Training",
+                "text": "Gym & Training"
+            }
+        }
+    },
+    "menu-item#footer-yeezy": {
+        "title" : "Yeezy",
+        "props": {
+            "id": "footer-yeezy",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Yeezy",
+                "text": "Yeezy"
+            }
+        }
+    },
+    "menu-item#footer-ultraboost": {
+        "title" : "Ultraboost",
+        "props": {
+            "id": "footer-ultraboost",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Ultraboost",
+                "text": "Ultraboost"
+            }
+        }
+    },
+    "menu-item#footer-superstar": {
+        "title" : "Superstar",
+        "props": {
+            "id": "footer-superstar",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Superstar",
+                "text": "Superstar"
+            }
+        }
+    },
+    "menu-item#footer-stan-smith": {
+        "title" : "Stan Smith",
+        "props": {
+            "id": "footer-stan-smith",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Stan Smith",
+                "text": "Stan Smith"
+            }
+        }
+    },
+    "menu-item#footer-adicolor": {
+        "title" : "Adicolor",
+        "props": {
+            "id": "footer-adicolor",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Adicolor",
+                "text": "adicolor"
+            }
+        }
+    }
+}

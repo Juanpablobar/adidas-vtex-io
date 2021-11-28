@@ -1,0 +1,145 @@
+{
+    "flex-layout.col#menu-footer-5" : {
+        "title" : "Menu Footer Col 5",
+        "props" : {
+            "blockClass" : "footer-menu"
+        },
+        "children" : [
+            "vtex.menu@2.x:menu#footer-terminos-condiciones"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-terminos-condiciones" : {
+        "title" : "Términos & Condiciones Menu",
+        "children" : [
+            "rich-text#footer-terminos-condiciones",
+            "menu-item#footer-terminos-condiciones",
+            "menu-item#footer-terminos-condiciones-promos",
+            "menu-item#footer-terminos-adidas",
+            "menu-item#footer-aviso-privacidad-videovigilancia",
+            "menu-item#footer-terminos-condiciones-sitio",
+            "menu-item#footer-aviso-privacidad",
+            "image#footer-image"
+        ],
+        "props" : {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#footer-terminos-condiciones" : {
+        "title" : "Términos y Condiciones",
+        "props" : {
+            "text" : "TÉRMINOS Y CONDICIONES",
+            "blockClass" : "footer-item"
+        }
+    },
+    "menu-item#footer-terminos-condiciones": {
+        "title" : "Términos y Condiciones",
+        "props": {
+            "id": "footer-terminos-condiciones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Términos y Condiciones",
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#footer-terminos-condiciones-promos": {
+        "title" : "Términos y Condiciones Promos",
+        "props": {
+            "id": "footer-terminos-condiciones-promos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Términos y Condiciones Promos",
+                "text": "Términos y Condiciones Promos"
+            }
+        }
+    },
+    "menu-item#footer-terminos-adidas": {
+        "title" : "Términos #YESadidas",
+        "props": {
+            "id": "footer-terminos-adidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Términos #YESadidas",
+                "text": "Términos #YESadidas"
+            }
+        }
+    },
+    "menu-item#footer-aviso-privacidad-videovigilancia": {
+        "title" : "Aviso de Privacidad de Videovigilancia",
+        "props": {
+            "id": "footer-aviso-privacidad-videovigilancia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Aviso de Privacidad de Videovigilancia",
+                "text": "Aviso de Privacidad de Videovigilancia"
+            }
+        }
+    },
+    "menu-item#footer-terminos-condiciones-sitio": {
+        "title" : "Términos y Condiciones de uso del sitio",
+        "props": {
+            "id": "footer-terminos-condiciones-sitio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Términos y Condiciones de uso del sitio",
+                "text": "Términos y Condiciones de uso del sitio"
+            }
+        }
+    },
+    "menu-item#footer-aviso-privacidad": {
+        "title" : "Aviso de Privacidad",
+        "props": {
+            "id": "footer-aviso-privacidad",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Aviso de Privacidad",
+                "text": "Aviso de Privacidad"
+            }
+        }
+    },
+    "image#footer-image" : {
+        "title" : "Footer Image",
+        "props" : {
+            "src" : "https://www.adidas.mx/on/demandware.static/-/Sites-adidas-MX-Library/es_MX/dwd53597dc/Socio_AMIPCI.jpg",
+            "blockClass" : "footer-img",
+            "maxWidth" : "70",
+            "maxHeight" : "35"
+        }
+    }
+}

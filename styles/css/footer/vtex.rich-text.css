@@ -1,0 +1,41 @@
+.paragraph--footer-newsletter{
+    font: 600 30px "AdineuePRO", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    color: #000;
+    margin: 0;
+}
+
+.paragraph--newsletter-trigger{
+    font: 700 13px "AdihausDIN", Helvetica, Arial, sans-serif;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 0;
+    height: 50px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    min-height: 50px;
+    padding: 0 21px;
+    position: relative;
+    background: #000;
+}
+
+.paragraph--footer-item{
+    font: 600 18px "AdineuePRO", Helvetica, Arial, sans-serif;
+    line-height: 23px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.paragraph--footer-item-spacer{
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 960px){
+    .container--footer-newsletter{
+        width: 90% !important;
+    }
+}

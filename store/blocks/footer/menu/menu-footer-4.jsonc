@@ -1,0 +1,143 @@
+{
+    "flex-layout.col#menu-footer-4" : {
+        "title" : "Menu Footer Col 4",
+        "props" : {
+            "blockClass" : "footer-menu"
+        },
+        "children" : [
+            "vtex.menu@2.x:menu#footer-informacion-tiendas"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-informacion-tiendas" : {
+        "title" : "Información & Tiendas Menu",
+        "children" : [
+            "rich-text#footer-informacion",
+            "menu-item#footer-acerca-de",
+            "menu-item#footer-blog",
+            "menu-item#footer-trabaja-equipo",
+            "menu-item#footer-prensa",
+            "menu-item#footer-informacion-corporativa",
+            "rich-text#footer-tiendas",
+            "menu-item#footer-buscador-tiendas"
+        ],
+        "props" : {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#footer-informacion" : {
+        "title" : "Información",
+        "props" : {
+            "text" : "INFORMACIÓN DE LA EMPRESA",
+            "blockClass" : "footer-item"
+        }
+    },
+    "rich-text#footer-tiendas" : {
+        "title" : "Tiendas",
+        "props" : {
+            "text" : "TIENDAS",
+            "blockClass" : ["footer-item", "footer-item-spacer"]
+        }
+    },
+    "menu-item#footer-acerca-de": {
+        "title" : "Acerca de adidas",
+        "props": {
+            "id": "footer-acerca-de",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Acerca de adidas",
+                "text": "Acerca de adidas"
+            }
+        }
+    },
+    "menu-item#footer-blog": {
+        "title" : "Blog",
+        "props": {
+            "id": "footer-blog",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Blog",
+                "text": "Blog"
+            }
+        }
+    },
+    "menu-item#footer-trabaja-equipo": {
+        "title" : "Trabaja en nuestro equipo",
+        "props": {
+            "id": "footer-trabaja-equipo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Trabaja en nuestro equipo",
+                "text": "Trabaja en nuestro equipo"
+            }
+        }
+    },
+    "menu-item#footer-prensa": {
+        "title" : "Prensa",
+        "props": {
+            "id": "footer-prensa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Prensa",
+                "text": "Prensa"
+            }
+        }
+    },
+    "menu-item#footer-informacion-corporativa": {
+        "title" : "Información corporativa",
+        "props": {
+            "id": "footer-informacion-corporativa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Información corporativa",
+                "text": "Información corporativa"
+            }
+        }
+    },
+    "menu-item#footer-buscador-tiendas": {
+        "title" : "Buscador de tiendas",
+        "props": {
+            "id": "footer-buscador-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Buscador de tiendas",
+                "text": "Buscador de tiendas"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-menu"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer-menu"
+    ]
+  },
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "flex-layout.col#menu-footer-1",
+      "flex-layout.col#menu-footer-2",
+      "flex-layout.col#menu-footer-3",
+      "flex-layout.col#menu-footer-4",
+      "flex-layout.col#menu-footer-5"
+    ],
+    "props" : {
+      "blockClass" : "footer-menu"
+    }
+  }
+}

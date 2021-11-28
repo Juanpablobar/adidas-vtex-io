@@ -1,0 +1,39 @@
+@font-face {
+    font-display: swap;
+    font-family: "AdihausDIN";
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-Regular.woff2) format("woff2"),url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AdihausDIN";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-Bold.woff2) format("woff2"),url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-Bold.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AdihausDIN Cn";
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-CnMediumItalic.woff2) format("woff2"),url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/AdihausDIN-CnMediumItalic.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AdineuePRO";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/adineuePRO-Regular.woff2) format("woff2"),url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/adineuePRO-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AdineuePRO";
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/adineuePRO-Bold.woff2) format("woff2"),url(https://adl-foundation.adidas.com/fonts/adidas/1-0-0/adineuePRO-Bold.woff) format("woff")
+}

@@ -1,0 +1,16 @@
+{
+    "info-card#protect-ocean" : {
+        "title" : "Protect Ocean Info Card",
+        "props" : {
+            "id": "protect-ocean",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES NUESTRO FUTURO.",
+            "callToActionText": "CONOCE MÁS",
+            "callToActionUrl": "/sustentablidad",
+            "blockClass": "protect-ocean",
+            "textAlignment": "center",
+            "imageUrl": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esMX/Images/statement_dt_tcm217-741849.jpg"
+        }
+    }
+}

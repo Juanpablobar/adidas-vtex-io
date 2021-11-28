@@ -1,0 +1,261 @@
+{
+    "flex-layout.col#menu-footer-3" : {
+        "title" : "Menu Footer Col 3",
+        "props" : {
+            "blockClass" : "footer-menu"
+        },
+        "children" : [
+            "vtex.menu@2.x:menu#footer-asistencia"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-asistencia" : {
+        "title" : "Asistencia Menu",
+        "children" : [
+            "rich-text#footer-asistencia",
+            "menu-item#footer-ayuda",
+            "menu-item#footer-servicio-cliente",
+            "menu-item#footer-preguntas-frecuentes",
+            "menu-item#footer-guia-tallas",
+            "menu-item#footer-productos-adidas",
+            "menu-item#footer-realizar-pedidos",
+            "menu-item#footer-pago",
+            "menu-item#footer-envio",
+            "menu-item#footer-devoluciones",
+            "menu-item#footer-cambio-tiendas",
+            "menu-item#footer-talla-bra",
+            "menu-item#footer-usar-sitio",
+            "menu-item#footer-mapa-sitio"
+        ],
+        "props" : {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#footer-asistencia" : {
+        "title" : "Asistencia",
+        "props" : {
+            "text" : "ASISTENCIA",
+            "blockClass" : "footer-item"
+        }
+    },
+    "menu-item#footer-ayuda": {
+        "title" : "¿Necesitas ayuda?",
+        "props": {
+            "id": "footer-ayuda",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : ["footer-item", "footer-item-bold"],
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "¿Necesitas ayuda?",
+                "text": "¿Necesitas ayuda?"
+            }
+        }
+    },
+    "menu-item#footer-servicio-cliente": {
+        "title" : "Servicio al cliente",
+        "props": {
+            "id": "footer-servicio-cliente",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Servicio al cliente",
+                "text": "Servicio al cliente"
+            }
+        }
+    },
+    "menu-item#footer-preguntas-frecuentes": {
+        "title" : "Preguntas frecuentes",
+        "props": {
+            "id": "footer-preguntas-frecuentes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Preguntas frecuentes",
+                "text": "Preguntas frecuentes"
+            }
+        }
+    },
+    "menu-item#footer-guia-tallas": {
+        "title" : "Guía de Tallas",
+        "props": {
+            "id": "footer-guia-tallas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Guía de Tallas",
+                "text": "Guía de Tallas"
+            }
+        }
+    },
+    "menu-item#footer-productos-adidas": {
+        "title" : "Productos adidas",
+        "props": {
+            "id": "footer-productos-adidas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Productos adidas",
+                "text": "Productos adidas"
+            }
+        }
+    },
+    "menu-item#footer-realizar-pedidos": {
+        "title" : "Realizar pedidos",
+        "props": {
+            "id": "footer-realizar-pedidos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Realizar pedidos",
+                "text": "Realizar pedidos"
+            }
+        }
+    },
+    "menu-item#footer-pago": {
+        "title" : "Pago",
+        "props": {
+            "id": "footer-pago",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Pago",
+                "text": "Pago"
+            }
+        }
+    },
+    "menu-item#footer-envio": {
+        "title" : "Envío",
+        "props": {
+            "id": "footer-envio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Envío",
+                "text": "Envío"
+            }
+        }
+    },
+    "menu-item#footer-devoluciones": {
+        "title" : "Devoluciones",
+        "props": {
+            "id": "footer-devoluciones",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Devoluciones",
+                "text": "Devoluciones"
+            }
+        }
+    },
+    "menu-item#footer-cambio-tiendas": {
+        "title" : "Cambio en Tiendas",
+        "props": {
+            "id": "footer-cambio-tiendas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Cambio en Tiendas",
+                "text": "Cambio en Tiendas"
+            }
+        }
+    },
+    "menu-item#footer-talla-bra": {
+        "title" : "Cómo saber la talla de tu Bra",
+        "props": {
+            "id": "footer-talla-bra",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Cómo saber la talla de tu Bra",
+                "text": "Cómo saber la talla de tu Bra"
+            }
+        }
+    },
+    "menu-item#footer-usar-sitio": {
+        "title" : "Cómo usar nuestro sitio",
+        "props": {
+            "id": "footer-usar-sitio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Cómo usar nuestro sitio",
+                "text": "Cómo usar nuestro sitio"
+            }
+        }
+    },
+    "menu-item#footer-mapa-sitio": {
+        "title" : "Mapa del sitio",
+        "props": {
+            "id": "footer-mapa-sitio",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Mapa del sitio",
+                "text": "Mapa del sitio"
+            }
+        }
+    }
+}

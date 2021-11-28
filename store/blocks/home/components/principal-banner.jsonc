@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#home-principal-banner" : {
+        "title" : "Principal Banner",
+        "children" : [
+            "link#home-banner"
+        ],
+        "props" : {
+            "blockClass" : "home-banner"
+        }
+    },
+    "link#home-banner" : {
+        "title" : "Banner Link redirection",
+        "props" : {
+            "href" : "/tenis-4dfwd/Q46446"
+        },
+        "children" : [
+            "video#homer-banner",
+            "rich-text#home-banner"
+        ]
+    },
+    "video#homer-banner" : {
+        "props" : {
+            "src" : "https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/global%20brand%20publishing/4D/4d-fwd-chapter3/Launch/Version%202/launch/running-4dfwd-launch-fw21-ch3-digital-launch-hp-masthead-large-3d-d.mp4",
+            "width" : "100%",
+            "height" : "100%",
+            "playsInline" : true,
+            "loop": true,
+            "autoPlay": true
+        }
+    },
+    "rich-text#home-banner" : {
+        "props" : {
+            "text" : "## 4DFWD. SIGUE AVANZANDO.\n\nMediasuela de alto rendimiento con tecnología de impresión 3D para que llegues más lejos.\n\n[COMPRAR AHORA](/tenis-4dfwd/Q46446)",
+            "blockClass" : "home-text"
+        }
+    }
+}

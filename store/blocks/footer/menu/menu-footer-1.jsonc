@@ -1,0 +1,294 @@
+{
+    "flex-layout.col#menu-footer-1" : {
+        "title" : "Menu Footer Col 1",
+        "children" : [
+            "vtex.menu@2.x:menu#footer-products"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-products" : {
+        "title" : "Products Menu",
+        "children" : [
+            "rich-text#footer-productos",
+            "menu-item#footer-tenis",
+            "menu-item#footer-ropa",
+            "menu-item#footer-accesorios",
+            "menu-item#footer-calzado-futbol",
+            "menu-item#footer-rompevientos",
+            "menu-item#footer-novedades",
+            "menu-item#footer-buenfin",
+            "menu-item#footer-black-friday",
+            "menu-item#footer-cyber-monday",
+            "menu-item#footer-hot-sale",
+            "menu-item#footer-outlet",
+            "menu-item#footer-creators-club",
+            "menu-item#footer-adidas-casa",
+            "menu-item#footer-adidas-app",
+            "menu-item#footer-adidas-runners"
+        ],
+        "props" : {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#footer-productos" : {
+        "title" : "Productos",
+        "props" : {
+            "text" : "PRODUCTOS",
+            "blockClass" : "footer-item"
+        }
+    },
+    "menu-item#footer-tenis": {
+        "title" : "Tenis",
+        "props": {
+            "id": "footer-tenis",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Tenis",
+                "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#footer-ropa": {
+        "title" : "Ropa",
+        "props": {
+            "id": "footer-Ropa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Ropa",
+                "text": "Ropa"
+            }
+        }
+    },
+    "menu-item#footer-accesorios": {
+        "title" : "Accesorios",
+        "props": {
+            "id": "footer-Accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#footer-calzado-futbol": {
+        "title" : "Calzado de Fútbol",
+        "props": {
+            "id": "footer-Calzado de Fútbol",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Calzado de Fútbol",
+                "text": "Calzado de Fútbol"
+            }
+        }
+    },
+    "menu-item#footer-rompevientos": {
+        "title" : "Rompevientos",
+        "props": {
+            "id": "footer-Rompevientos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : ["footer-item", "footer-item-spacer"],
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Rompevientos",
+                "text": "Rompevientos"
+            }
+        }
+    },
+    "menu-item#footer-novedades": {
+        "title" : "Novedades",
+        "props": {
+            "id": "footer-Novedades",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Novedades",
+                "text": "Novedades"
+            }
+        }
+    },
+    "menu-item#footer-buenfin": {
+        "title" : "Buen Fin",
+        "props": {
+            "id": "footer-Buen Fin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Buen Fin",
+                "text": "Buen Fin"
+            }
+        }
+    },
+    "menu-item#footer-black-friday": {
+        "title" : "Black Friday",
+        "props": {
+            "id": "footer-Black-Friday",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Black Friday",
+                "text": "Black Friday"
+            }
+        }
+    },
+    "menu-item#footer-cyber-monday": {
+        "title" : "Cyber Monday",
+        "props": {
+            "id": "footer-Cyber-Monday",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Cyber Monday",
+                "text": "Cyber Monday"
+            }
+        }
+    },
+    "menu-item#footer-hot-sale": {
+        "title" : "Hot Sale",
+        "props": {
+            "id": "footer-Hot-Sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Hot Sale",
+                "text": "Hot Sale"
+            }
+        }
+    },
+    "menu-item#footer-outlet": {
+        "title" : "Outlet",
+        "props": {
+            "id": "footer-Outlet",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : ["footer-item", "footer-item-spacer", "footer-item-bold"],
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Outlet",
+                "text": "Outlet"
+            }
+        }
+    },
+    "menu-item#footer-creators-club": {
+        "title" : "Creators Club",
+        "props": {
+            "id": "footer-Creators-Club",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : ["footer-item", "footer-item-bold"],
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Creators Club",
+                "text": "Creators Club"
+            }
+        }
+    },
+    "menu-item#footer-adidas-casa": {
+        "title" : "Adidas en Casa",
+        "props": {
+            "id": "footer-Adidas-en-Casa",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Adidas en Casa",
+                "text": "adidas en casa"
+            }
+        }
+    },
+    "menu-item#footer-adidas-app": {
+        "title" : "Adidas App",
+        "props": {
+            "id": "footer-Adidas-App",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Adidas App",
+                "text": "adidas app"
+            }
+        }
+    },
+    "menu-item#footer-adidas-runners": {
+        "title" : "Adidas Runners",
+        "props": {
+            "id": "footer-Adidas-Runners",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass" : "footer-item",
+            "itemProps": {
+                "type": "internal",
+                "href" : "#",
+                "noFollow": true,
+                "tagTitle": "Adidas Runners",
+                "text": "adidas Runners"
+            }
+        }
+    }
+}

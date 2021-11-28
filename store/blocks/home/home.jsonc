@@ -1,0 +1,11 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home-principal-banner",
+      "info-card#fifty-discount",
+      "flex-layout.row#home-interest",
+      "info-card#protect-ocean",
+      "flex-layout.row#home-history"
+    ]
+  }
+}

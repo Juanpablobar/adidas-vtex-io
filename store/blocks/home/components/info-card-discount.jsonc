@@ -1,0 +1,16 @@
+{
+    "info-card#fifty-discount" : {
+        "title" : "50% Discount Info Card",
+        "props" : {
+            "id": "fifty-discount",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "HASTA 50% DE DESCUENTO",
+            "callToActionText": "COMPRAR AHORA",
+            "callToActionUrl": "/ofertas_mexico",
+            "blockClass": "fifty-discount",
+            "textAlignment": "center",
+            "subhead" : "Disfruta ya de hasta 50% de descuento en el catálogo seleccionado + ofertas adicionales:\n15% adicional por compras superiores a $2,499\n25% adicional por compras superiores a $2,999\n¿Qué esperas?"
+        }
+    }
+}

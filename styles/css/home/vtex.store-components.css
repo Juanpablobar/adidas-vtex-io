@@ -1,0 +1,101 @@
+.infoCardContainer--fifty-discount{
+    background-color: rgb(255, 89, 89);
+    position: relative;
+    width: 100%;
+    margin-top: -.25em;
+}
+
+.infoCardTextContainer--fifty-discount{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    width: 50%;
+}
+
+.infoCardHeadline--fifty-discount{
+    margin: 12px 0;
+    font: 600 30px "AdineuePRO", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    color: #fff;
+}
+
+.infoCardSubhead--fifty-discount{
+    margin: 12px 0;
+    font: 400 18px "AdihausDIN", Helvetica, Arial, sans-serif;
+    color: #fff;
+    line-height: 24px;
+}
+
+.infoCardCallActionContainer--fifty-discount{
+    margin: 0;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.infoCardCallActionContainer--fifty-discount :global(.vtex-button){
+    height: 50px;
+    padding: 0 21px;
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    font: 700 13px "AdihausDIN", Helvetica, Arial, sans-serif;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #000;
+    transition: .2s all;
+}
+
+.infoCardCallActionContainer--fifty-discount :global(.vtex-button):hover, .infoCardCallActionContainer--protect-ocean :global(.vtex-button):hover{
+    color: #767677;
+}
+
+.infoCardCallActionContainer--fifty-discount :global(.vtex-button_label){
+    display: flex;
+    align-items: center;
+}
+
+.infoCardCallActionContainer--fifty-discount :global(.vtex-button_label)::after{
+    content: '';
+    background-image: url(assets/img/right.svg);
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.infoCardTextContainer--protect-ocean{
+    width: 58.3333333333%;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.infoCardHeadline--protect-ocean{
+    margin: 12px 0;
+    font: 600 30px "AdineuePRO", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.infoCardCallActionContainer--protect-ocean{
+    margin: 12px 0;
+    position: relative;
+}
+
+.infoCardCallActionContainer--protect-ocean :global(.vtex-button){
+    height: 50px;
+    padding: 0 21px;
+    background: #000;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    font: 700 13px "AdihausDIN", Helvetica, Arial, sans-serif;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: .2s all;
+    border: 1px solid #fff
+}

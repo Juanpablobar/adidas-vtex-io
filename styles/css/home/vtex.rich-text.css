@@ -1,0 +1,75 @@
+.container--home-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.wrapper--home-text{
+    height: auto;
+    padding: 20px 15px;
+}
+
+.headingLevel2--home-text{
+    font: 600 42px "AdineuePRO", Helvetica, Arial, sans-serif;
+    color: #fff;
+    line-height: 38px;
+    margin-bottom: 0px;
+}
+
+.paragraph--home-text{
+    font: 400 18px "AdihausDIN", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.link--home-text{
+    font: 700 13px "AdihausDIN", Helvetica, Arial, sans-serif;
+    color: #fff;
+    line-height: 17px;
+    margin-top: 0;
+    letter-spacing: 2px;
+    padding: .35em;
+    transition: .2s all;
+}
+
+.link--home-text:hover{
+    color: black;
+    background: white;
+}
+
+.headingLevel2--interest-text{
+    font: 500 30px "AdihausDIN Cn", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    color: #000;
+    margin: 30px 15px 20px;
+    margin-left: 0;
+}
+
+.paragraph--history-text{
+    font: 400 14px "AdihausDIN", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: #000;
+    padding: 0 15px;
+}
+
+.strong--history-text{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1280px){
+    .wrapper--home-text{
+        width: 33.3333333333%;
+    }
+    .container--home-text{
+        width: 1280px;
+        margin: auto;
+    }
+}
